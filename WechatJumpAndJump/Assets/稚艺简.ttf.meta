@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 2a873d3585294544f8a74f408896c01f
+timeCreated: 1518665643
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: FZZhiYi-M12S
+  fontNames:
+  - FZZhiYi-M12S
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
