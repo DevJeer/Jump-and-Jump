@@ -1,0 +1,73 @@
+GitHub Issues 
+发现代码Bug  但是目前没有成型的代码 需要讨论的时候用 
+
+MarkDown语言
+
+Fork 复制克隆项目
+
+Star
+
+Watch关注   会显示动态
+
+Git分为三个区域
+   Git Respository  最终确定的文件保存到仓库  成为一个新的版本  并且对其他人可见
+   暂存区           暂存已经修改的文件最后统一提交到Git仓库
+   工作区   		 添加 编辑 修改文件等动作
+可以用Git Status 来查看当前文件的状态
+用git add file 来将文件从工作区传递到暂存区
+
+
+开始的时候要进行基本信息设置
+1.设置用户名
+git.config --global user.name ""
+2.设置用户名邮箱
+git.config --global user.name ""
+3.生成.git文件
+git init
+4.git add a1.c
+5.git commit -m "" 提交的简要信息
+
+git clone github.com/用户名/test.git
+
+push的时候
+git remote add origin git@github.com:用户名/仓库名.git
+git push -u origin master
+将本地仓库推送到远程仓库
+   执行git push -u origin master将本地仓库推送到远程仓库。
+
+   在执行该命令时有时候会出错，原因是远程的文件未同步下来。此时可以先执行：git pull --rebase origin master将远程文件同步下来。
+   然后在执行推送即可。
+
+  完成后在后续的推送文件到远程仓库中可直接执行git push origin master
+
+
+基本命令
+ls    当前目录下的文件
+pwd   当前路径
+clear 清屏
+
+mkdir 文件名   可以创建一个文件夹
+cd    进入用户主目录
+cd..  返回上一级目录
+
+touch a1.c 生成一个文件
+
+vi vim 可以进入这个文件进行修改  wq保存退出  shift+zz也可以
+cat a1.c 可以查看里面的代码
+
+rm -rf a1.c 删除一个文件
+git rm a1.c 删除Git仓库里面的文件
+
+
+
+
+
+
+
+
+
+
+
+
+
+
